@@ -16,7 +16,7 @@ body{
 	background-image:url(img/bg-stripe01.png);
 	background-repeat:repeat-x;
 	*/
-	background:#f5f5f5;
+	background:#e1caf0;
     margin: 0 auto;
 }
 
@@ -46,14 +46,14 @@ li{
 
 /*連結顏色設定*/
 a{
-    border: #9eedf6 10px solid;
-	color:#df4839;
+    border: #4f80eb 10px solid;
+	color:#e0eb7d;
     font-size: 30px;
-    background-color: #9eedf6;
+    background-color: #4f80eb;
 }
 
 a:hover{
-	color:#63c248;
+	color:#4a9436;
     background-color:#df4839;
     border: #df4839 10px solid;
 }
@@ -71,7 +71,7 @@ h1 span{
 
 /*次標題設定*/
 h2{
-	color:#6fbb9a;
+	color:#266e4f;
 	border:#94c8b1 10px dotted;
 	border-left:#d0e35b 10px solid;
     border-right:#d0e35b 10px solid;
@@ -88,6 +88,12 @@ h4{
     height: 30px;
     top: calc(50% - 15px);
 }
+
+#div1{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 /*內容標題設定*/
 dt{
 	clear: left;
