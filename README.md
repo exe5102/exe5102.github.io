@@ -56,7 +56,6 @@
 .
 ├── index.html
 ├── css/
-├── js/
-├── images/
+├── img/
 └── README.md
 ```
