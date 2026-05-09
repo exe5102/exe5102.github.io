@@ -1,4 +1,4 @@
-# exe5102.github.io
+# [exe5102.github.io](https://exe5102.github.io/)
 
 大學二年級《網頁程式設計》課程專題實作。
 本專案為個人靜態網站，使用 HTML、CSS、JavaScript 開發，並透過 GitHub Pages 部署。
