@@ -1,36 +1,179 @@
-
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" media="all">
-    <title>站長介紹</title>
+    <title>鄧佳霖 | 個人網站</title>
+    <meta name="description" content="鄧佳霖的個人靜態網站 - 關於我、成長歷程、興趣喜好與未來目標。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-        <header>
-            <h1>鄧佳霖的個人網站</h1>
-        </header>
-    <div>
-        <ul>
-            <li><a href="page1.html">成長歷程</a></li>
-            <li><a href="page2.html">興趣喜好</a></li>
-            <li><a href="page3.html">生長城市</a></li>
-            <li><a href="page4.html">未來目標</a></li>
-        </ul>
-    </div>
-    <div>
-        <h2>關於我</h2>
-    </div>
-    <div>
-        <h3>對我來說能夠挺過每一天，一步一腳印朝著目標前進，才是我想看到的自己</h3>
-    </div>
-    <br>
-    <div><img src="img\65425.jpg" alt="all">
-    </div>
-    <br>
-    <br>
-    <br>
-    <p><small>Copyright &copy Teng,Chia-Lin All Right Reserved </small></p>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">TENG<span>.DEV</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">關於我</a></li>
+                <li><a href="#growth">成長歷程</a></li>
+                <li><a href="#hobbies">興趣喜好</a></li>
+                <li><a href="#hometown">生長城市</a></li>
+                <li><a href="#future">未來目標</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section: Hero / About -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="tech-badge">HELLO WORLD</div>
+                        <h1 class="glitch-text" data-text="鄧佳霖">鄧佳霖</h1>
+                        <h2>個人介紹與未來展望</h2>
+                        <p class="quote">
+                            「對我來說能夠挺過每一天，一步一腳印朝著目標前進，才是我想看到的自己。」
+                        </p>
+                        <a href="#future" class="btn-primary">探索未來目標</a>
+                    </div>
+                    <div class="hero-image-wrapper">
+                        <img src="img/65425.jpg" alt="鄧佳霖的照片" class="profile-img">
+                        <div class="glow-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Growth -->
+        <section id="growth" class="section dark-section">
+            <div class="container">
+                <h2 class="section-title">成長歷程 <span>// Timeline</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>幼時</h3>
+                            <p>我認為自己小時候是幸福的，整天只要知道玩就可以了，完全沒有甚麼是我需要煩惱的。不需要去擔心自己是否會不會沒有飯吃，或是生計壓力的問題，也不需要去擔心自己的未來到底會如何，只能說非常的單純。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>青年</h3>
+                            <p>到了這階段開始會去思考一些問題，例如之後會想從事什麼職業、有沒有甚麼想做的事。甚至會開始關心自己的一些事，不再是像之前一樣整天都在玩，漸漸地開始會去做規劃，並且有時總會幻想自己未來會是甚麼樣子。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>成年</h3>
+                            <p>成年了，思想也逐漸成熟，開始逐漸能夠體會父母身上所擔的壓力，體會到父母的辛苦。很多事情都要為自己負責，不是一昧地尋求庇護，對於未來的規劃也必須更完善，更有計畫性的去朝目標一步步前進。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="media-container mt-l">
+                    <div class="video-wrapper">
+                        <iframe src="img/2018_12_28_16_30_36.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Hobbies -->
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-title">興趣喜好 <span>// Interests</span></h2>
+                
+                <div class="grid-cards">
+                    <div class="card">
+                        <div class="card-icon">🏀</div>
+                        <h3>籃球</h3>
+                        <p>打籃球時，我感到極度興奮且全情投入。在比賽中，我能忘卻生活上的煩惱，全神貫注於比數、隊友和對手。籃球讓我不僅保持健康，還培養了團隊合作和領導才能。</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎮</div>
+                        <h3>電玩</h3>
+                        <p>打電玩時，我感到充滿愉悅和興奮。遊戲帶來了一種激情洋溢的心情，好比踏入一個奇幻的世界。而與朋友一同遊玩時，競技和合作讓我感到親近和互動的滿足。</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎬</div>
+                        <h3>看電影</h3>
+                        <p>觀看科幻電影時，我感到興奮且充滿好奇。這些電影打開了通往未知宇宙和未來的大門。科幻電影引發深思，探討人類存在、技術發展和外星文明等主題。</p>
+                    </div>
+                </div>
+
+                <div class="media-container mt-l">
+                    <img src="img/350.jpg" alt="興趣展示" class="feature-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Hometown -->
+        <section id="hometown" class="section dark-section">
+            <div class="container">
+                <div class="split-content">
+                    <div class="split-text">
+                        <h2 class="section-title">生長城市 <span>// Hometown</span></h2>
+                        <h3 class="city-name">台中 <span>Taichung</span></h3>
+                        <p class="city-desc">
+                            臺中位於臺灣西半部的樞紐位置，四季氣候宜人。現代與傳統相互融合，在尋古訪幽之餘，國立臺灣美術館、國立自然科學博物館與臺中市文化局共築成美學、文化與知識的鐵三角。林立的百貨公司、各有特色的商圈，都讓臺中市有如巴黎香榭大道的優雅浪漫。這座充滿文化饗宴的城市，總能帶給人們驚豔又餘味繚繞的體驗。
+                        </p>
+                    </div>
+                    <div class="split-image">
+                        <div class="image-frame">
+                            <img src="img/50424.jpg" alt="台中風景">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Future Goals -->
+        <section id="future" class="section">
+            <div class="container">
+                <h2 class="section-title">未來目標 <span>// Vision</span></h2>
+                
+                <div class="goal-container">
+                    <div class="goal-image">
+                        <img src="img/7f8f504c8b182965b34bb200ee1660eb.jpeg" alt="AI 未來展望">
+                    </div>
+                    <div class="goal-text">
+                        <div class="tech-badge accent">CAREER PATH</div>
+                        <h3>成為一名 AI 工程師</h3>
+                        <p>成為一名 AI 工程師一直是我的夢想。AI 的崛起改變了我們的世界，並為解決複雜的問題提供了新的可能性。</p>
+                        <p>我希望能參與這場革命，設計智能系統，改善生活品質，促進科學研究，並應對全球挑戰。我熱衷於學習機器學習、深度學習和自然語言處理等 AI 領域的知識和技能。</p>
+                        <p>我將不懈努力，參與項目，解決難題，並保持對創新的開放態度。對我來說，這是實現夢想的最佳途徑。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">TENG.DEV</div>
+                <p>&copy; 2024 Teng, Chia-Lin. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
